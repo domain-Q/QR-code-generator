@@ -12,7 +12,7 @@ function GenerateQr() {
         inputText.classList.remove("error");
 
         qrImg.onload = function() {
-            generateBtn.style.display = 'none';  // Hide the Generate button
+            // generateBtn.style.display = 'none';  // Hide the Generate button
             downloadBtn.style.display = 'block';  // Show the Download button
 
             // Set up the download functionality
